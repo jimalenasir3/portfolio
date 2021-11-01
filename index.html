@@ -10,7 +10,15 @@
 
     <title>Portfolio</title>
   </head>
-  <body>
+  <style>
+      div{border-style:dashed;
+          margin: 10px;
+          border-radius: 10px;}
+      
+      .col{margin: 5px;
+        }    
+  </style>
+  <body class ="bg-dark">
 
     <nav>
         <ul class ="nav justify-content-center nav-pills">
@@ -30,28 +38,38 @@
             
         </ul>
     </nav>
-    <div class = "container text-center">
+    <div class = "container text-center bg-warning">
         <h1>Welcome to my Portfolio!</h1>
         <p class ="lead">
-            Come back to section
+            On this page there will be information about me and some work I have done along with contact details.
         </p>
     </div>
 
-    <div class = "container">
+    <div class = "container bg-danger">
         <div class="row">
-            <div class="col">
+            <div class="col bg-warning">
                 <H3>All about me</H3>
+                <div class="row">
+                <div class="col-5 mt-2"> 
+                    <h5>List of likes/hobbies :</h5>
+                    <ol>I enjoy watching football and playing it.</ol>
+                    <ol>Football</ol>
+                </div>
+                <div class="col-6 mt-2"> 
+                    <h5>Ok</h5>
+                </div>
+            </div>
                 <p class="lead"> Short Paragraph about me here [First Column]</p>
             </div>
-            <div class="col border-style border-style solid red">
+            <div class="col bg-warning">
                 <H3>Grades</H3>
                 <p class="lead"> Short Paragraph about me here [First Column]</p>
             </div>
         
             </div>
 
-            <div class="col text-center mt-5">
-                <h3>Things I've done</h3>
+            <div class="col text-center mt-2 bg-warning">
+                <h3>Things I've done add more sections and style out more monday</h3>
             </div>
         </div>
     </div>
